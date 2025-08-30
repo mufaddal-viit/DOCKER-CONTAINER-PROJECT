@@ -35,7 +35,6 @@ Make sure the directory contains the following:
 
 ### 2. Dockerfile Example (Using `http-server`)
 
-```Dockerfile
 FROM node:22-alpine
 
 WORKDIR /app
@@ -48,24 +47,22 @@ EXPOSE 8080
 
 CMD ["http-server", ".", "-p", "8080"]
 
-3. Build the Docker Image
+# Build the Docker Image
 docker build -t html-calculator .
 
-4. Run the Docker Container
+# Run the Docker Container
 docker run -d -p 8080:8080 html-calculator
 
 
-Visit http://localhost:8080
+# Visit http://localhost:8080
  in your browser to use the app.
 
 ## 🛠 Features
+The web app has been successfully deplpoyed on node js container and is eerving static web app on 8000 port.
 
 Choose between addition or subtraction.
-
-Enter two numbers and get the result instantly.
-
-Fully interactive UI in the browser.
-
-All client-side logic using pure JavaScript
+- Enter two numbers and get the result instantly.
+- Fully interactive UI in the browser.
+- All client-side logic using pure JavaScript
 
 # Thank you :)
