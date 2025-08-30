@@ -6,8 +6,11 @@ This project demonstrates how to deploy a browser-based interactive HTML+JavaScr
 ## 📁 Project Structure
 
 docker-html-calculator/
+
 ├── Dockerfile # Docker configuration
+
 ├── index.html # HTML + JS interactive calculator
+
 └── README.md # Project documentation
 
 ## 🌐 What This Project Does
